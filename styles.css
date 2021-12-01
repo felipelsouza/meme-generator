@@ -1,3 +1,21 @@
-body {
-  background: orange;
+.gerador-de-memes {
+  margin: 20px auto;
+  width: 400px;
+  font-family: sans-serif;
+}
+
+.gerador-de-memes label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.gerador-de-memes input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#meme {
+  width: 100%;
 }

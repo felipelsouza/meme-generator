@@ -1,11 +1,24 @@
 <html>
   <head>
-    <meta charset="UTF-8">
-    <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <meta charset="UTF-8" />
+    <title>Gerador de Memes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
+
   <body>
-    <h1>Hello there!</h1>
-    <a href="/me.html">My other page</a>
+    <div class="gerador-de-memes">
+      <label>Selecione uma imagem</label>
+      <input type="file" id="imagemSelecionada" />
+
+      <label>Texto do topo</label>
+      <input type="text" id="textoDoTopo" />
+
+      <label>Texto do fundo</label>
+      <input type="text" id="textoDoFundo" />
+
+      <canvas id="meme"></canvas>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
